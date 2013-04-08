@@ -1,0 +1,486 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		54DF0A91170EFF5E0093273A /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54DF0A90170EFF5E0093273A /* Cocoa.framework */; };
+		54DF0A9B170EFF5E0093273A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 54DF0A99170EFF5E0093273A /* InfoPlist.strings */; };
+		54DF0A9D170EFF5E0093273A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 54DF0A9C170EFF5E0093273A /* main.m */; };
+		54DF0AA1170EFF5E0093273A /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 54DF0A9F170EFF5E0093273A /* Credits.rtf */; };
+		54DF0AA4170EFF5E0093273A /* PMDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = 54DF0AA3170EFF5E0093273A /* PMDocument.m */; };
+		54DF0AA7170EFF5E0093273A /* PMDocument.xib in Resources */ = {isa = PBXBuildFile; fileRef = 54DF0AA5170EFF5E0093273A /* PMDocument.xib */; };
+		54DF0AAA170EFF5E0093273A /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 54DF0AA8170EFF5E0093273A /* MainMenu.xib */; };
+		54DF0AB2170EFF5E0093273A /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54DF0AB1170EFF5E0093273A /* SenTestingKit.framework */; };
+		54DF0AB3170EFF5E0093273A /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54DF0A90170EFF5E0093273A /* Cocoa.framework */; };
+		54DF0ABB170EFF5E0093273A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 54DF0AB9170EFF5E0093273A /* InfoPlist.strings */; };
+		54DF0ABE170EFF5E0093273A /* PathMakerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 54DF0ABD170EFF5E0093273A /* PathMakerTests.m */; };
+		54DF0AC9170F00710093273A /* PMMainView.m in Sources */ = {isa = PBXBuildFile; fileRef = 54DF0AC8170F00710093273A /* PMMainView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		54DF0AB4170EFF5E0093273A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 54DF0A85170EFF5E0093273A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 54DF0A8C170EFF5E0093273A;
+			remoteInfo = PathMaker;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		54DF0A8D170EFF5E0093273A /* PathMaker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PathMaker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		54DF0A90170EFF5E0093273A /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		54DF0A93170EFF5E0093273A /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		54DF0A94170EFF5E0093273A /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		54DF0A95170EFF5E0093273A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		54DF0A98170EFF5E0093273A /* PathMaker-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PathMaker-Info.plist"; sourceTree = "<group>"; };
+		54DF0A9A170EFF5E0093273A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		54DF0A9C170EFF5E0093273A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		54DF0A9E170EFF5E0093273A /* PathMaker-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PathMaker-Prefix.pch"; sourceTree = "<group>"; };
+		54DF0AA0170EFF5E0093273A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		54DF0AA2170EFF5E0093273A /* PMDocument.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PMDocument.h; sourceTree = "<group>"; };
+		54DF0AA3170EFF5E0093273A /* PMDocument.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PMDocument.m; sourceTree = "<group>"; };
+		54DF0AA6170EFF5E0093273A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/PMDocument.xib; sourceTree = "<group>"; };
+		54DF0AA9170EFF5E0093273A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		54DF0AB0170EFF5E0093273A /* PathMakerTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PathMakerTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		54DF0AB1170EFF5E0093273A /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		54DF0AB8170EFF5E0093273A /* PathMakerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PathMakerTests-Info.plist"; sourceTree = "<group>"; };
+		54DF0ABA170EFF5E0093273A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		54DF0ABC170EFF5E0093273A /* PathMakerTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PathMakerTests.h; sourceTree = "<group>"; };
+		54DF0ABD170EFF5E0093273A /* PathMakerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PathMakerTests.m; sourceTree = "<group>"; };
+		54DF0AC7170F00710093273A /* PMMainView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PMMainView.h; sourceTree = "<group>"; };
+		54DF0AC8170F00710093273A /* PMMainView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PMMainView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		54DF0A8A170EFF5E0093273A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54DF0A91170EFF5E0093273A /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54DF0AAC170EFF5E0093273A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54DF0AB2170EFF5E0093273A /* SenTestingKit.framework in Frameworks */,
+				54DF0AB3170EFF5E0093273A /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		54DF0A84170EFF5E0093273A = {
+			isa = PBXGroup;
+			children = (
+				54DF0A96170EFF5E0093273A /* PathMaker */,
+				54DF0AB6170EFF5E0093273A /* PathMakerTests */,
+				54DF0A8F170EFF5E0093273A /* Frameworks */,
+				54DF0A8E170EFF5E0093273A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		54DF0A8E170EFF5E0093273A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				54DF0A8D170EFF5E0093273A /* PathMaker.app */,
+				54DF0AB0170EFF5E0093273A /* PathMakerTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		54DF0A8F170EFF5E0093273A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				54DF0A90170EFF5E0093273A /* Cocoa.framework */,
+				54DF0AB1170EFF5E0093273A /* SenTestingKit.framework */,
+				54DF0A92170EFF5E0093273A /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		54DF0A92170EFF5E0093273A /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				54DF0A93170EFF5E0093273A /* AppKit.framework */,
+				54DF0A94170EFF5E0093273A /* CoreData.framework */,
+				54DF0A95170EFF5E0093273A /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		54DF0A96170EFF5E0093273A /* PathMaker */ = {
+			isa = PBXGroup;
+			children = (
+				54DF0AA2170EFF5E0093273A /* PMDocument.h */,
+				54DF0AA3170EFF5E0093273A /* PMDocument.m */,
+				54DF0AA5170EFF5E0093273A /* PMDocument.xib */,
+				54DF0AA8170EFF5E0093273A /* MainMenu.xib */,
+				54DF0A97170EFF5E0093273A /* Supporting Files */,
+				54DF0AC7170F00710093273A /* PMMainView.h */,
+				54DF0AC8170F00710093273A /* PMMainView.m */,
+			);
+			path = PathMaker;
+			sourceTree = "<group>";
+		};
+		54DF0A97170EFF5E0093273A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				54DF0A98170EFF5E0093273A /* PathMaker-Info.plist */,
+				54DF0A99170EFF5E0093273A /* InfoPlist.strings */,
+				54DF0A9C170EFF5E0093273A /* main.m */,
+				54DF0A9E170EFF5E0093273A /* PathMaker-Prefix.pch */,
+				54DF0A9F170EFF5E0093273A /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		54DF0AB6170EFF5E0093273A /* PathMakerTests */ = {
+			isa = PBXGroup;
+			children = (
+				54DF0ABC170EFF5E0093273A /* PathMakerTests.h */,
+				54DF0ABD170EFF5E0093273A /* PathMakerTests.m */,
+				54DF0AB7170EFF5E0093273A /* Supporting Files */,
+			);
+			path = PathMakerTests;
+			sourceTree = "<group>";
+		};
+		54DF0AB7170EFF5E0093273A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				54DF0AB8170EFF5E0093273A /* PathMakerTests-Info.plist */,
+				54DF0AB9170EFF5E0093273A /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		54DF0A8C170EFF5E0093273A /* PathMaker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 54DF0AC1170EFF5E0093273A /* Build configuration list for PBXNativeTarget "PathMaker" */;
+			buildPhases = (
+				54DF0A89170EFF5E0093273A /* Sources */,
+				54DF0A8A170EFF5E0093273A /* Frameworks */,
+				54DF0A8B170EFF5E0093273A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PathMaker;
+			productName = PathMaker;
+			productReference = 54DF0A8D170EFF5E0093273A /* PathMaker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		54DF0AAF170EFF5E0093273A /* PathMakerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 54DF0AC4170EFF5E0093273A /* Build configuration list for PBXNativeTarget "PathMakerTests" */;
+			buildPhases = (
+				54DF0AAB170EFF5E0093273A /* Sources */,
+				54DF0AAC170EFF5E0093273A /* Frameworks */,
+				54DF0AAD170EFF5E0093273A /* Resources */,
+				54DF0AAE170EFF5E0093273A /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				54DF0AB5170EFF5E0093273A /* PBXTargetDependency */,
+			);
+			name = PathMakerTests;
+			productName = PathMakerTests;
+			productReference = 54DF0AB0170EFF5E0093273A /* PathMakerTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		54DF0A85170EFF5E0093273A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = PM;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "马 俊";
+			};
+			buildConfigurationList = 54DF0A88170EFF5E0093273A /* Build configuration list for PBXProject "PathMaker" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 54DF0A84170EFF5E0093273A;
+			productRefGroup = 54DF0A8E170EFF5E0093273A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				54DF0A8C170EFF5E0093273A /* PathMaker */,
+				54DF0AAF170EFF5E0093273A /* PathMakerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		54DF0A8B170EFF5E0093273A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54DF0A9B170EFF5E0093273A /* InfoPlist.strings in Resources */,
+				54DF0AA1170EFF5E0093273A /* Credits.rtf in Resources */,
+				54DF0AA7170EFF5E0093273A /* PMDocument.xib in Resources */,
+				54DF0AAA170EFF5E0093273A /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54DF0AAD170EFF5E0093273A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54DF0ABB170EFF5E0093273A /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		54DF0AAE170EFF5E0093273A /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		54DF0A89170EFF5E0093273A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54DF0A9D170EFF5E0093273A /* main.m in Sources */,
+				54DF0AA4170EFF5E0093273A /* PMDocument.m in Sources */,
+				54DF0AC9170F00710093273A /* PMMainView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54DF0AAB170EFF5E0093273A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54DF0ABE170EFF5E0093273A /* PathMakerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		54DF0AB5170EFF5E0093273A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 54DF0A8C170EFF5E0093273A /* PathMaker */;
+			targetProxy = 54DF0AB4170EFF5E0093273A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		54DF0A99170EFF5E0093273A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				54DF0A9A170EFF5E0093273A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		54DF0A9F170EFF5E0093273A /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				54DF0AA0170EFF5E0093273A /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		54DF0AA5170EFF5E0093273A /* PMDocument.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				54DF0AA6170EFF5E0093273A /* en */,
+			);
+			name = PMDocument.xib;
+			sourceTree = "<group>";
+		};
+		54DF0AA8170EFF5E0093273A /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				54DF0AA9170EFF5E0093273A /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		54DF0AB9170EFF5E0093273A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				54DF0ABA170EFF5E0093273A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		54DF0ABF170EFF5E0093273A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		54DF0AC0170EFF5E0093273A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		54DF0AC2170EFF5E0093273A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PathMaker/PathMaker-Prefix.pch";
+				INFOPLIST_FILE = "PathMaker/PathMaker-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		54DF0AC3170EFF5E0093273A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PathMaker/PathMaker-Prefix.pch";
+				INFOPLIST_FILE = "PathMaker/PathMaker-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		54DF0AC5170EFF5E0093273A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/PathMaker.app/Contents/MacOS/PathMaker";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = "\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PathMaker/PathMaker-Prefix.pch";
+				INFOPLIST_FILE = "PathMakerTests/PathMakerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		54DF0AC6170EFF5E0093273A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/PathMaker.app/Contents/MacOS/PathMaker";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = "\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PathMaker/PathMaker-Prefix.pch";
+				INFOPLIST_FILE = "PathMakerTests/PathMakerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		54DF0A88170EFF5E0093273A /* Build configuration list for PBXProject "PathMaker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				54DF0ABF170EFF5E0093273A /* Debug */,
+				54DF0AC0170EFF5E0093273A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		54DF0AC1170EFF5E0093273A /* Build configuration list for PBXNativeTarget "PathMaker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				54DF0AC2170EFF5E0093273A /* Debug */,
+				54DF0AC3170EFF5E0093273A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		54DF0AC4170EFF5E0093273A /* Build configuration list for PBXNativeTarget "PathMakerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				54DF0AC5170EFF5E0093273A /* Debug */,
+				54DF0AC6170EFF5E0093273A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 54DF0A85170EFF5E0093273A /* Project object */;
+}
