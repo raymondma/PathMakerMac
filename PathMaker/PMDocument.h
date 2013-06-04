@@ -10,4 +10,7 @@
 
 @interface PMDocument : NSDocument
 
+
+@property (retain) NSMutableArray* m_controlPoints;
+
 @end

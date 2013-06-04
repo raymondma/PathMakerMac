@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		540B451F171A897200DDDC4F /* PMWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 540B451E171A897200DDDC4F /* PMWindowController.m */; };
+		54D40CED1757367600446F5B /* PMSplineMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 54D40CEC1757367600446F5B /* PMSplineMaker.m */; };
 		54DF0A91170EFF5E0093273A /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54DF0A90170EFF5E0093273A /* Cocoa.framework */; };
 		54DF0A9B170EFF5E0093273A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 54DF0A99170EFF5E0093273A /* InfoPlist.strings */; };
 		54DF0A9D170EFF5E0093273A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 54DF0A9C170EFF5E0093273A /* main.m */; };
@@ -32,6 +34,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		540B451D171A897200DDDC4F /* PMWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PMWindowController.h; sourceTree = "<group>"; };
+		540B451E171A897200DDDC4F /* PMWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PMWindowController.m; sourceTree = "<group>"; };
+		54D40CEB1757367600446F5B /* PMSplineMaker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PMSplineMaker.h; sourceTree = "<group>"; };
+		54D40CEC1757367600446F5B /* PMSplineMaker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PMSplineMaker.m; sourceTree = "<group>"; };
 		54DF0A8D170EFF5E0093273A /* PathMaker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PathMaker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		54DF0A90170EFF5E0093273A /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		54DF0A93170EFF5E0093273A /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
@@ -126,6 +132,10 @@
 				54DF0A97170EFF5E0093273A /* Supporting Files */,
 				54DF0AC7170F00710093273A /* PMMainView.h */,
 				54DF0AC8170F00710093273A /* PMMainView.m */,
+				540B451D171A897200DDDC4F /* PMWindowController.h */,
+				540B451E171A897200DDDC4F /* PMWindowController.m */,
+				54D40CEB1757367600446F5B /* PMSplineMaker.h */,
+				54D40CEC1757367600446F5B /* PMSplineMaker.m */,
 			);
 			path = PathMaker;
 			sourceTree = "<group>";
@@ -274,6 +284,8 @@
 				54DF0A9D170EFF5E0093273A /* main.m in Sources */,
 				54DF0AA4170EFF5E0093273A /* PMDocument.m in Sources */,
 				54DF0AC9170F00710093273A /* PMMainView.m in Sources */,
+				540B451F171A897200DDDC4F /* PMWindowController.m in Sources */,
+				54D40CED1757367600446F5B /* PMSplineMaker.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -401,6 +413,7 @@
 		54DF0AC2170EFF5E0093273A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				COMBINE_HIDPI_IMAGES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "PathMaker/PathMaker-Prefix.pch";
@@ -413,6 +426,7 @@
 		54DF0AC3170EFF5E0093273A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				COMBINE_HIDPI_IMAGES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "PathMaker/PathMaker-Prefix.pch";
@@ -471,6 +485,7 @@
 				54DF0AC3170EFF5E0093273A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		54DF0AC4170EFF5E0093273A /* Build configuration list for PBXNativeTarget "PathMakerTests" */ = {
 			isa = XCConfigurationList;
@@ -479,6 +494,7 @@
 				54DF0AC6170EFF5E0093273A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

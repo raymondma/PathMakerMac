@@ -10,9 +10,16 @@
 
 @interface PMMainView : NSView
 {
-    NSBezierPath* m_path;
+    CGSize m_workAraeSize;
+    CGPoint m_workAreaOffsetPoint;
+    int m_curSelCP;
+    BOOL m_lockSelCP;
+    IBOutlet NSTextField* m_coordText;
 }
 
-@property (retain) NSBezierPath* m_path;
+@property (retain) NSMutableArray* m_controlPoints;
+@property (assign) CGPoint m_workAreaOffsetPoint;
+
+-(void)initialize;
 
 @end
