@@ -70,7 +70,7 @@
                                                    owner:self
                                                 userInfo:nil];
     [self addTrackingArea:_trackingArea];
-    [self becomeFirstResponder];
+//    [self becomeFirstResponder];
     
     [m_coordText setStringValue:@"mouse position: 000.0, 000.0"];
     [self setNeedsDisplay:YES];
