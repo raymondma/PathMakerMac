@@ -59,7 +59,7 @@
     {
         return;
     }
-    NSString* srcURL = [openPanel URL];
+    NSURL* srcURL = [openPanel URL];
     
     NSSavePanel* panel = [NSSavePanel new];
     [panel setNameFieldStringValue:@"game_path.pmp"];
